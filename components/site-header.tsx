@@ -27,7 +27,14 @@ import {
 } from "@/components/ui/accordion"
 import { cn } from "@/lib/utils"
 
-const NAV_ITEMS = [
+type NavItem = {
+  title: string
+  href: string
+  noDropdown?: boolean
+  children: { title: string; href: string }[]
+}
+
+const NAV_ITEMS: NavItem[] = [
   {
     title: "Explore",
     href: "/explore",
