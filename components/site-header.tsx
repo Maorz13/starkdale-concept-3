@@ -42,9 +42,9 @@ const NAV_ITEMS: NavItem[] = [
       { title: "Explore Starkdale", href: "/explore" },
       { title: "The Perfect Day", href: "/explore/perfect-day" },
       { title: "Our Farm", href: "/explore/our-farm" },
-      { title: "The Square", href: "/community/the-square" },
-      { title: "Play Village", href: "/community/play-village" },
-      { title: "Gathering Venues", href: "/community/gathering-venues" },
+      { title: "The Square", href: "/life/the-square" },
+      { title: "Play Village", href: "/life/play-village" },
+      { title: "Gathering Venues", href: "/life/gathering-venues" },
     ],
   },
   {
